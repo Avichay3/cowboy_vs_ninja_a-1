@@ -15,6 +15,6 @@ void Cowboy::reload(){
     return;
 }
 
-std::string Cowboy::print() {
-    return "aa";
+std::string Cowboy::print(){
+    return "";
 }

@@ -12,7 +12,7 @@
 namespace ariel{
     class Team{
         Character *_leader;
-        vector <Character *> warriors{10};
+        std::vector <Character *> warriors{10};
 
         public:
             Team(Character *leader); //constructor

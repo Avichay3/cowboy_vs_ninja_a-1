@@ -1,9 +1,12 @@
 #include "Character.hpp"
 using namespace ariel;
-using namespace std;
 
 
-Character::Character(string name, Point &location, int hit_points) : _name(name), _location(location), _hit_points(hit_points) {} //initialization list
+Character::Character(std::string name, Point &location, int hit_points) : 
+_name(name), _location(location), _hit_points(hit_points) {} //first constructor with initialization list
+
+
+Character::Character(std::string name, Point &location): _name(name), _location(location){}
 
 bool Character::isAlive() {
 	return false;
@@ -15,17 +18,17 @@ double ariel::Character::distance(Point *other){
 
 
 void Character::hit(int){
-    cout<<"hit"<<endl;
+    std::cout<<"hit"<<std::endl;
 }
 
-string Character::getName() const{
+std::string Character::getName() const{
 	return " ";
 }
 
-Point getLocation() {
+Point Character::getLocation() {
     return Point(1.0,2.0);
 }
 
-string Character::print (){
-	return " ";
+std::string Character::print(){
+    return "";
 }

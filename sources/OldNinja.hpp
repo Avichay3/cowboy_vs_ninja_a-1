@@ -6,5 +6,6 @@ namespace ariel{
 
         public:
             OldNinja(std::string name, Point location, int hit_points, int speed);
+            OldNinja(std::string Name, Point location);
     };
 }
