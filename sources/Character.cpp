@@ -9,13 +9,12 @@ bool Character::isAlive() {
 	return false;
 }
 
-
-double distance( Character *other) {
-	return 1.0;
+double ariel::Character::distance(Point *other){
+    return (double)1;
 }
 
 
-void hit(int){
+void Character::hit(int){
     cout<<"hit"<<endl;
 }
 
@@ -24,6 +23,9 @@ string Character::getName() const{
 }
 
 Point getLocation() {
-    return 1.0;
+    return Point(1.0,2.0);
 }
 
+string Character::print (){
+	return " ";
+}

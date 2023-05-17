@@ -25,7 +25,7 @@ namespace ariel{
 
         Point getLocation() const{ ; }
 
-        void print();
+        string print();
         
 
 
