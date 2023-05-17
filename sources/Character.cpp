@@ -22,7 +22,7 @@ void Character::hit(int){
 }
 
 std::string Character::getName() const{
-	return " ";
+	return _name;
 }
 
 Point Character::getLocation() {
