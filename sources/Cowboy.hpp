@@ -15,7 +15,7 @@ namespace ariel{
 
             void reload();
 
-            std::string Cowboy::print();
+            std::string print();
 
     };
 }
